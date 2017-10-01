@@ -2,12 +2,12 @@
 <extension version="2.5" type="plugin" group="system" method="upgrade">
   <name>PLG_SYSTEM_REGISTERGOBACK</name>
   <author>Gruz</author>
-  <creationDate>2016-07-03</creationDate>
-  <copyright>Copyright (C) 2004-2016 Gruz All rights reserved.</copyright>
+  <creationDate>2017-10-01</creationDate>
+  <copyright>Copyright (C) 2004-2017 Gruz All rights reserved.</copyright>
   <license>http://www.gnu.org/copyleft/gpl.html GNU/GPL</license>
   <authorEmail>arygroup@gmail.com</authorEmail>
-  <authorUrl>http://gruz.org.ua/extensions/registergoback.html</authorUrl>
-  <version>1.0.5</version>
+  <authorUrl>http://gruz.ml/extensions/registergoback.html</authorUrl>
+  <version>1.0.6</version>
   <description>PLG_SYSTEM_REGISTERGOBACK_DESC</description>
   <files>
     
@@ -24,4 +24,4 @@
     </fields>
   </config>
   
-<updateservers><servers type="extension" priority="1" name="registergoback">http://gruz.org.ua/index.php?option=com_ars&amp;view=update&amp;task=stream&amp;format=xml&amp;id=8&amp;dummy=extension.xml</servers></updateservers></extension>
+<updateservers><servers type="extension" priority="1" name="registergoback">http://gruz.ml/index.php?option=com_ars&amp;view=update&amp;task=stream&amp;format=xml&amp;id=8&amp;dummy=extension.xml</servers></updateservers></extension>
