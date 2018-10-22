@@ -11,6 +11,9 @@
 
 namespace PlgSystemRegistergoback\Traits;
 
+// No direct access
+defined('_JEXEC') or die;
+
 /**
  * A helper trait
  *
