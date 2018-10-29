@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
-<extension version="2.5" type="plugin" group="system" method="upgrade">
+<extension version="3.8" type="plugin" group="system" method="upgrade">
   <name>PLG_SYSTEM_REGISTERGOBACK</name>
   <author>Gruz</author>
-  <creationDate>2017-10-01</creationDate>
-  <copyright>Copyright (C) 2004-2017 Gruz All rights reserved.</copyright>
+  <creationDate>2018-10-29</creationDate>
+  <copyright>Copyright (C) 2004-2018 Gruz All rights reserved.</copyright>
   <license>http://www.gnu.org/copyleft/gpl.html GNU/GPL</license>
   <authorEmail>arygroup@gmail.com</authorEmail>
   <authorUrl>http://gruz.ml/extensions/registergoback.html</authorUrl>
-  <version>1.0.6</version>
+  <version>1.0.7 dev build 0</version>
   <description>PLG_SYSTEM_REGISTERGOBACK_DESC</description>
   <files>
     
     
-  <folder>extensions</folder><folder>language</folder><filename>README.md</filename><filename plugin="registergoback">registergoback.php</filename><filename>scriptary.php</filename></files>
+  <folder>.vscode</folder><folder>extensions</folder><folder>language</folder><folder>src</folder><filename>README.md</filename><filename plugin="registergoback">registergoback.php</filename><filename>scriptary.php</filename></files>
   <config>
     <fields name="params">
       <fieldset name="basic">
@@ -20,6 +20,11 @@
           <option value="0">JNO</option>
           <option value="1">JYES</option>
         </field>
+        <field name="RSFormIsUsedForUserRegistration" type="list" description="PLG_SYSTEM_REGISTERGOBACK_RSFORMISUSEDFORUSERREGISTRATION_DESC" label="PLG_SYSTEM_REGISTERGOBACK_RSFORMISUSEDFORUSERREGISTRATION_LABEL" default="1">
+          <option value="0">JNO</option>
+          <option value="1">JYES</option>
+        </field>
+        <field showon="RSFormIsUsedForUserRegistration:1" name="RSFormId" type="number" description="PLG_SYSTEM_REGISTERGOBACK_RSFORMID_DESC" label="PLG_SYSTEM_REGISTERGOBACK_RSFORMID_LABEL" default="0"/>
       </fieldset>
     </fields>
   </config>
