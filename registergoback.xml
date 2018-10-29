@@ -7,12 +7,12 @@
   <license>http://www.gnu.org/copyleft/gpl.html GNU/GPL</license>
   <authorEmail>arygroup@gmail.com</authorEmail>
   <authorUrl>http://gruz.ml/extensions/registergoback.html</authorUrl>
-  <version>1.0.7 dev build 3</version>
+  <version>1.0.7 dev build 4</version>
   <description>PLG_SYSTEM_REGISTERGOBACK_DESC</description>
   <files>
     
     
-  <folder>.vscode</folder><folder>extensions</folder><folder>language</folder><folder>src</folder><filename>README.md</filename><filename plugin="registergoback">registergoback.php</filename><filename>scriptary.php</filename></files>
+  <folder>extensions</folder><folder>language</folder><folder>src</folder><filename>README.md</filename><filename plugin="registergoback">registergoback.php</filename><filename>scriptary.php</filename></files>
   <config>
     <fields name="params">
       <fieldset name="basic">
